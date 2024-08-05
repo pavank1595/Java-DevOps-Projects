@@ -9,7 +9,7 @@ pipeline {
         
         stage('Get-Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/pavank1595/java-maven-web-app.git'
             }
         }
